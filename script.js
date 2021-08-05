@@ -5,4 +5,5 @@ const arr = [
 ]
 
 let result = arr.reduce((acc,item) => acc + item.age, 0) / (arr.length) ;
+console.log(arr);
 console.log(result);
